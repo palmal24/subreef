@@ -23,5 +23,13 @@ packages = [{include = "subreef", from = "src"}]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.ruff]
+line-length = 88
+
+
 [tool.poetry.scripts]
 subreef = "subreef.main:main"
+[dependency-groups]
+dev = [
+    "ruff (>=0.15.8,<0.16.0)"
+]
