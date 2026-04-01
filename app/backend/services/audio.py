@@ -18,3 +18,6 @@ class AudioService:
         with open(file_path, "wb") as f:
             f.write(self.file)
         return file_path
+
+    def _process_subtitles(self, filname):...
+    def _process_languages(self, target_language):...
