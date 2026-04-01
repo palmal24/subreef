@@ -425,3 +425,8 @@ __marimo__/
 
 # Custom
 .vscode
+main_test.py
+audio_test.mp3
+audio_test.wav
+audio1.mp3
+script_temp.py
